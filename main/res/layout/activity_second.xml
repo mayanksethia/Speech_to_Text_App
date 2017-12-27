@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4567">
+
+
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/locationText"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="17sp"
+        android:textAlignment="center"
+        android:layout_above="@+id/getLocationBtn"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Current Location"
+        android:layout_centerInParent="true"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:id="@+id/getLocationBtn"/>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="103dp"
+        android:text="SAVE" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:text="" />
+
+
+</RelativeLayout>
